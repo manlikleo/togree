@@ -12,7 +12,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-        <Route exact path={`/home`} render={ (routerProps) => < Home routerProps={routerProps} setUpGame={this.setUpGame} />} />
+          <Route exact path={'/'} render={ (routerProps) => < Home routerProps={routerProps} setUpGame={this.setUpGame} />} />
         </Switch>
       </Router>
     </>
