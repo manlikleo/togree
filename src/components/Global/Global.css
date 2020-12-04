@@ -1,0 +1,72 @@
+
+.Global_container{
+    padding: 80px;
+    display:flex;
+    background: #FFF;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.Global_container_pic{
+    height: 50%;
+    width:50%;
+}
+
+.Global_content{
+    padding: 0 50px;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.Global_header{
+    font-size: 1.2rem;
+    color:#4E4E4E;
+}
+
+.Global_subheader{
+    font-size: 0.8rem;
+    color: #757575;
+}
+
+.Globalcards_items{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    justify-content: center;
+}
+
+.Globalcard_item{
+    width: 80%;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Globalcard_container{
+    height: 10vh;
+    border: 1px solid #6FE736;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12px;
+    color: #8E8E8E;
+
+}
+
+.Globalcard_title{
+    font-size: 1rem;
+    
+    margin-bottom: 5px;
+
+}
+
+.Globalcard_subtitle{
+    font-size: 0.8rem;
+}
+
+

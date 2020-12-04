@@ -1,0 +1,255 @@
+.ProjectCard{
+    padding:1rem;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards_container {
+    position: absolute;
+    height: 40vh;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content:stretch;
+    width: 90%;
+    margin: 0 auto;
+    top:95%;
+    left:5%;
+
+}
+
+.cards_items,.circlecards_items {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .information_cards_item{
+      display:flex;
+      flex-direction:column;
+  }
+
+
+.cards_item,.circlecards_item,.information_cards_item {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    justify-content: center;
+}
+
+
+
+.cards_item_container{
+    height: 30vh;
+    padding:0 2rem;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 20px;
+    text-decoration: none;
+    justify-content: space-evenly;
+    background: #FFF;
+}
+
+
+.cards_item_top{
+    display:flex;
+    align-items: center;
+}
+
+.card_item_img{
+    align-self:start;
+}
+
+.card_item_title{
+    margin-left:20px;
+    color:#808080;
+    font-weight: 500;
+}
+
+.card_item_dot{
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+    background-color: #000;
+    top:0;
+    right:0;
+    margin:20px;
+}
+
+.card_item_paragraph{
+    color:#808080;
+    font-size: 0.9rem;
+}
+
+.card_item_link{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: right;
+    color: #006CFF;
+}
+
+.projectCard_title_bar{
+    display:flex;
+    flex-direction:column;
+    margin-top:250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProjectCard_title{
+    font-size:1rem;
+    font-weight: bold;
+    color:#838383;
+    margin-bottom:15px;
+}
+
+.ProjectCard_subtitle{
+    font-size:1.5rem;
+    color:#24C347 ;
+}
+
+.circlecards_container{
+    margin-top:20px;
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    flex-flow: row;
+    align-items:center;
+    justify-content:center;
+}
+
+.circlecards_item_container{
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    margin-right: 30px;
+    color: #000;
+    background-color: #E5ECF2;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circlecards_inner_circle{
+    height: 142px;
+    width: 142px;
+    border-radius: 100%;
+    background-color: #FFF;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+}
+
+.circlecards_header{
+    font-size:1.3rem;
+    font-weight:600;
+    margin-bottom:5px;
+
+}
+
+.circlecards_sub_header {
+    color: #535762;
+    font-size: 0.7rem;
+}
+
+.divider{
+    width:80%;
+    height:1px;
+    background-color: #535762;
+}
+
+.information_section{
+
+    padding-top:60px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content:stretch;
+    width: 90%;
+    margin: 0 auto;
+    top:95%;
+    left:5%;
+}
+.information_item_container,.information_item_container_flip{
+    width: 100%;
+    padding:0 32px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    text-decoration: none;
+
+}
+
+.information_item_container_flip{
+    background-color: #F8F8F8;
+    flex-flow: row-reverse;
+    padding: 32px 32px;
+    margin-bottom:0px;
+}
+
+.information_pic{
+    padding:0 32px;
+    height: 50%;
+    width: 50%;
+}
+
+.information_content{
+    padding:0 80px;
+  display:flex;
+  align-items: left;
+  flex-direction: column;
+  gap:30px;
+}
+
+.information_paragraph{
+    font-size:0.8rem;
+    line-height: 24px;
+    color:#757575;
+}
+
+.information_header{
+    font: size 1rem;
+    color:#535762;
+}
+
+.information_item_link{
+    align-self: start;
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 16px  32px;
+    font-weight: 500;
+    background-color: #24C347;
+    color: #FFF;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

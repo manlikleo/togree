@@ -1,0 +1,99 @@
+
+.Main_services_container{
+    height: 60vh;
+    background:url(./Mainbg.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+
+.Main_services_title{
+    margin:10px 0;
+    color: #24C347;
+    font-size: 1.5rem;
+}
+
+.Main_services_subtitle{
+    font-size: 12px;
+    color: #838383;
+}
+
+.Main_services_cards{
+    height: 40vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Main_services_items{
+    width: 80%;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Maincard_item{
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+.Maincard_container,.Maincard_green{
+    height: 28vh;
+    padding:0 2rem;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 30px;
+    text-decoration: none;
+    background: #FFF;
+    align-items: center;
+
+}
+
+
+.Maincard_green{
+    background:linear-gradient(#6FE736,#077FD7);
+
+}
+
+
+.Maincard_avatar{
+    margin:10px 0;
+    height: 80px;
+    width: 80px;
+}
+
+.Maincard_title {
+    margin-bottom:15px;
+    color:#6C6C6C;
+}
+
+.Maincard_green  .Maincard_title{
+   color:#FFF;
+}
+
+.fa-angle-down{
+    font-size: 35px;
+}
+
+.Maincard_green .fa-angle-down{
+    color: #FFF;
+}
+
+
