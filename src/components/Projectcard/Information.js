@@ -6,7 +6,7 @@ function Information(props) {
         <>
             <li className="information_cards_item">
                 <div className={props.Cname}>
-                    <img className="information_pic" src={props.src}/>
+                    <img className="information_pic" alt={props.alt} src={props.src}/>
                     <div className="information_content">
                         <h3 className="information_header">{props.title}</h3>
                         <p className="information_paragraph">{props.text}</p>
