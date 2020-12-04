@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.81ff00d2.chunk.css",
-    "main.js": "/static/js/main.b90f3dd9.chunk.js",
-    "main.js.map": "/static/js/main.b90f3dd9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9497ebfb.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9497ebfb.js.map",
-    "static/js/2.c2b3cf5a.chunk.js": "/static/js/2.c2b3cf5a.chunk.js",
-    "static/js/2.c2b3cf5a.chunk.js.map": "/static/js/2.c2b3cf5a.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.81ff00d2.chunk.css.map": "/static/css/main.81ff00d2.chunk.css.map",
-    "static/js/2.c2b3cf5a.chunk.js.LICENSE.txt": "/static/js/2.c2b3cf5a.chunk.js.LICENSE.txt",
-    "static/media/Global.51852b85.png": "/static/media/Global.51852b85.png",
-    "static/media/Main.css": "/static/media/Mainbg.ec46a449.png",
-    "static/media/Video.6a6be56a.png": "/static/media/Video.6a6be56a.png",
-    "static/media/avater2.da6e6fd8.png": "/static/media/avater2.da6e6fd8.png",
-    "static/media/heroimg.189bcc50.png": "/static/media/heroimg.189bcc50.png",
-    "static/media/information.0fc21a61.png": "/static/media/information.0fc21a61.png",
-    "static/media/logo.ab20b697.png": "/static/media/logo.ab20b697.png"
+    "main.css": "/togree/static/css/main.e80fa8db.chunk.css",
+    "main.js": "/togree/static/js/main.b90f3dd9.chunk.js",
+    "main.js.map": "/togree/static/js/main.b90f3dd9.chunk.js.map",
+    "runtime-main.js": "/togree/static/js/runtime-main.fdc87076.js",
+    "runtime-main.js.map": "/togree/static/js/runtime-main.fdc87076.js.map",
+    "static/js/2.c2b3cf5a.chunk.js": "/togree/static/js/2.c2b3cf5a.chunk.js",
+    "static/js/2.c2b3cf5a.chunk.js.map": "/togree/static/js/2.c2b3cf5a.chunk.js.map",
+    "index.html": "/togree/index.html",
+    "static/css/main.e80fa8db.chunk.css.map": "/togree/static/css/main.e80fa8db.chunk.css.map",
+    "static/js/2.c2b3cf5a.chunk.js.LICENSE.txt": "/togree/static/js/2.c2b3cf5a.chunk.js.LICENSE.txt",
+    "static/media/Global.51852b85.png": "/togree/static/media/Global.51852b85.png",
+    "static/media/Main.css": "/togree/static/media/Mainbg.ec46a449.png",
+    "static/media/Video.6a6be56a.png": "/togree/static/media/Video.6a6be56a.png",
+    "static/media/avater2.da6e6fd8.png": "/togree/static/media/avater2.da6e6fd8.png",
+    "static/media/heroimg.189bcc50.png": "/togree/static/media/heroimg.189bcc50.png",
+    "static/media/information.0fc21a61.png": "/togree/static/media/information.0fc21a61.png",
+    "static/media/logo.ab20b697.png": "/togree/static/media/logo.ab20b697.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9497ebfb.js",
+    "static/js/runtime-main.fdc87076.js",
     "static/js/2.c2b3cf5a.chunk.js",
-    "static/css/main.81ff00d2.chunk.css",
+    "static/css/main.e80fa8db.chunk.css",
     "static/js/main.b90f3dd9.chunk.js"
   ]
 }
