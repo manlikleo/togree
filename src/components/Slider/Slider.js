@@ -27,7 +27,7 @@ joy alteration boisterous the attachment. Party we years to order allow asked of
                     <i className="fas fa-angle-left togglebtns"></i>
                             <ul className="slidercards_items">
                                 <Slidercard
-                                  Cname='slidercard_pic slider1'  
+                                  
                                  title='COVIF-19 Disrups Transportation in Lagos'
                                  subtitle='Musical by me through he drawing savings an. No we stand
                                  avoid decay heard mr. Common so wicket appear to sudden 
