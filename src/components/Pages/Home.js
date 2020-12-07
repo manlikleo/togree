@@ -4,7 +4,7 @@ import Hero from '../Hero/Hero';
 import ProjectCard from '../Projectcard/ProjectCard';
 import Main from '../Main/Main';
 import Global from '../Global/Global';
-import { Button } from '../Button';
+import Slider from '../Slider/Slider';
 
 function Home(){
     return (
@@ -13,6 +13,7 @@ function Home(){
         <ProjectCard/>
         <Main/>
         <Global/>
+        <Slider/>
         </>
     );
 }
