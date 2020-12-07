@@ -24,6 +24,7 @@
 .slider_subtitle{
     color: #838383;
     font-size: 0.8rem;
+    padding: 0px 100px;
 }
 
 .slidercards_containers{
@@ -33,6 +34,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .slidercards_items{
@@ -77,6 +79,14 @@
     margin-bottom: 15px;
 }
 
+.slider1{
+    background-image:url(./slider2.jpg);
+}
+
+.slider2{
+    background-image: url(./slider3.jpg);
+}
+
 .slidercard_content{
     padding: 0 16px;
     height: 20vh;
@@ -108,3 +118,8 @@
 }
 
 
+.sliderbtn{
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}

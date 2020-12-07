@@ -5,7 +5,7 @@ function Slidercard(props) {
     return (
         <div className="slidercard_container">
             <l1 className="slidercard_items">
-                <div className="slidercard_pic"></div>
+                <div className={props.className}></div>
                 <div className="slidercard_content">
                 <h5 className="slidercard_title">{props.title}</h5>
                 <p className="slidercard_subtitle">{props.subtitle}</p>
