@@ -20,10 +20,10 @@ import './dropdown.css'
 
     handleText = (ev) => {
         this.setState ({
-            haveText:ev.currentTarget.textContent
+            Setlanguage:ev.currentTarget.textContent
         })
     }
-    
+
     render() {
             const {ShowMenu,Setlanguage}= this.state;
 
