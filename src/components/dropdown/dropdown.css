@@ -1,0 +1,28 @@
+.dropdown {
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  width: 10vw;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.dropdown_content{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  font-size: 1rem;
+}
+
+li{
+  text-decoration: none;  
+  list-style: none;
+}
+
+.dropdown__items{
+  visibility: hidden;
+}
+

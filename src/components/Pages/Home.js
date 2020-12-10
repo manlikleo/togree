@@ -9,6 +9,7 @@ import Slider from '../Slider/Slider';
 function Home(){
     return (
         <>
+
         <Hero/>
         <ProjectCard/>
         <Main/>

@@ -2,12 +2,15 @@ import React,{Component} from 'react';
 import  {MenuItems} from "./MenuItems"
 import './Navbar.css';
 import logo from './logo.png';
+import Dropdownmenu from '../dropdown/dropdown'
+
+
 
 class Navbar extends Component {
     
     
     state = {clicked:false}
-    toggleClick = () =>{
+    toggleClick = () =>  {
         this.setState({clicked:!this.state.clicked})
     }
 
@@ -17,10 +20,9 @@ class Navbar extends Component {
         return (
             <nav className="NavbarItems">
 
-            <div >
+            <div className="logo_menu_container">
                 <img src={logo} alt="logo" className="Nav-logo" />
-            </div>
-
+            
                 <ul className={this.state.clicked ? 'nav-menu active':'nav-menu'}>
                     {MenuItems.map((item,index)=> {
                       return (
@@ -32,18 +34,24 @@ class Navbar extends Component {
                       )  
                     })} 
                 </ul>
-        
+            </div>
+
+            <div className="nav_icons_container">
+
                 <div className="menu-icon" onClick={this.toggleClick}>
                 <i className={this.state.clicked ? 'fas fa-times':'fas fa-bars'}></i>
                 </div>
-
-                
 
                 <div className="nav-icon" onClick={this.searchClick}>
                 <i className= 'fas fa-search'></i>
                 </div>
 
-            </nav>
+                <div className="Language_changer">
+                        <Dropdownmenu/>
+                </div>
+
+            </div>
+        </nav>
         )
     }
 }
