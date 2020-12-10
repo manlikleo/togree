@@ -7,11 +7,11 @@ import KE from './KE.png'
 export const Items =[
     {
        title:'EN',
+       cName:'Language-links'
 
     },
     {
        title:'FR',
-       imgfile:{EN},
        cName:'Language-links'
     },
     {
