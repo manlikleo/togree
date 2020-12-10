@@ -7,8 +7,7 @@ import KE from './KE.png'
 export const Items =[
     {
        title:'EN',
-       cName:'Language-links',
-       path: "../ENG.pg"
+
     },
     {
        title:'FR',
